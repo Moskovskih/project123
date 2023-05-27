@@ -1,0 +1,21 @@
+body{
+    color: white;
+    height: 150px;
+}
+p{
+    font-size: 25px;
+}
+h1{
+    text-align: center;
+}
+
+html{
+    background-image: url(https://minio.nplus1.ru/app-images/170163/772a25a67c9d0f21ded1e0916c3e9770.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
