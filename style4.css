@@ -1,0 +1,21 @@
+body{
+    color: white;
+    height: 150px;
+}
+p{
+    font-size: 25px;
+}
+h1{
+    text-align: center;
+}
+
+html{
+    background-image: url(https://asteropa.ru/wp-content/uploads/2019/10/Dd5UmDMV0AAmaoD.jpglarge-e1571406207452.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
