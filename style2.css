@@ -10,17 +10,21 @@ p{
 h1{
     text-align: center;
 }
-html {
-    background-image: url(https://avatars.dzeninfra.ru/get-zen_doc/5233119/pub_63f60dee2086715430533d27_63f6131564c86957e6369947/scale_1200);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
   .idk123{
       border: 3px solid linear-gradient(120deg,aqua,lightgreen);
       border-radius: 3px;
+  }
+  .full-screen {
+    position: absolute;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .full-screen_video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
